@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/walletFragment"
+        android:icon="@drawable/ic_wallet"
+        android:title="@string/wallet_menu" />
+    <item
+        android:id="@+id/addPaymentFragment"
+        android:icon="@drawable/ic_payment"
+        android:title="@string/payment_menu" />
+    <item
+        android:id="@+id/trackingFragment"
+        android:icon="@drawable/ic_tracking"
+        android:title="@string/tracking_menu" />
+    <item
+        android:id="@+id/deliveryFragment"
+        android:icon="@drawable/ic_success"
+        android:title="@string/delivery_menu" />
+</menu>

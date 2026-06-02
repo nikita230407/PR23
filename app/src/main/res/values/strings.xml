@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DeliveryApp</string>
+    <string name="google_maps_api_key">PASTE_YOUR_GOOGLE_MAPS_API_KEY_HERE</string>
+    <string name="app_logo_description">Логотип DeliveryApp</string>
+    <string name="wallet_title">Wallet</string>
+    <string name="wallet_subtitle">Кошелек доставки, выбранная оплата и быстрый доступ ко всем экранам.</string>
+    <string name="wallet_balance">2 450 ₽</string>
+    <string name="wallet_menu">Wallet</string>
+    <string name="payment_menu">Payment</string>
+    <string name="tracking_menu">Tracking</string>
+    <string name="delivery_menu">Success</string>
+    <string name="add_payment_title">Add Payment method</string>
+    <string name="add_payment_subtitle">Выберите способ оплаты. RadioButton меняет состояние в SharedViewModel.</string>
+    <string name="payment_card">Банковская карта</string>
+    <string name="payment_cash">Наличные</string>
+    <string name="payment_wallet">Delivery Wallet</string>
+    <string name="selected_payment_format">Выбрано: %1$s</string>
+    <string name="back_to_wallet">Вернуться в Wallet</string>
+    <string name="tracking_title">Tracking Package</string>
+    <string name="route_summary_format">Маршрут: %1$s → %2$s</string>
+    <string name="delivery_success_title">Delivery successful-1</string>
+    <string name="delivery_in_progress_title">Доставка выполняется</string>
+    <string name="delivery_progress_format">%1$d%%</string>
+    <string name="restart_progress">Повторить анимацию прогресса</string>
+</resources>

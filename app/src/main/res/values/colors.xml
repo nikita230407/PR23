@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="screen_background">#F7F8FA</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="text_primary">#172026</color>
+    <color name="text_secondary">#66727D</color>
+    <color name="delivery_green">#19A974</color>
+    <color name="delivery_green_dark">#087A54</color>
+    <color name="delivery_blue">#2477D4</color>
+    <color name="delivery_orange">#F2994A</color>
+    <color name="bottom_nav_selected">#19A974</color>
+    <color name="bottom_nav_unselected">#7A8791</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

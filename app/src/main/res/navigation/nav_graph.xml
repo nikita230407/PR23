@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/walletFragment">
+
+    <fragment
+        android:id="@+id/walletFragment"
+        android:name="com.example.pr23.ui.wallet.WalletFragment"
+        android:label="@string/wallet_title">
+        <action
+            android:id="@+id/action_wallet_to_payment"
+            app:destination="@id/addPaymentFragment" />
+        <action
+            android:id="@+id/action_wallet_to_tracking"
+            app:destination="@id/trackingFragment" />
+        <action
+            android:id="@+id/action_wallet_to_delivery"
+            app:destination="@id/deliveryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addPaymentFragment"
+        android:name="com.example.pr23.ui.payment.AddPaymentFragment"
+        android:label="@string/add_payment_title" />
+
+    <fragment
+        android:id="@+id/trackingFragment"
+        android:name="com.example.pr23.ui.tracking.TrackingFragment"
+        android:label="@string/tracking_title" />
+
+    <fragment
+        android:id="@+id/deliveryFragment"
+        android:name="com.example.pr23.ui.delivery.DeliveryFragment"
+        android:label="@string/delivery_success_title" />
+</navigation>
