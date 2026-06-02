@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.pr23"
+    namespace = "com.example.PR23-pr-23.103-fn"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.pr23"
+        applicationId = "com.example.PR23-pr-23.103-fn"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
